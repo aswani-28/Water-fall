@@ -1,0 +1,440 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(253, 220, 226)
+}
+
+.foot {
+    top:0%;
+    width: 100vw;
+    height: 6.5rem;
+    background-color: rgb(241, 125, 145);
+    position:fixed
+    
+}
+
+.lines {
+    display: none;
+}
+
+.nav {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav .image {
+
+    filter: hue-rotate(120deg);
+    opacity: 1;
+    mix-blend-mode: multiply;
+    width: 150px;
+    height: 100px
+}
+
+.search {
+    width: 550px;
+    height: 50px;
+    border-radius: 13px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index:1;
+    position: fixed;
+    left:20%
+}
+
+.search i {
+    font-size: 24px;
+    background-color: white;
+    position: fixed;
+}
+
+.search input {
+    border-radius: 10px;
+    border: none;
+    width: 500px;
+    height: 45px;
+    font-size: 15px;
+    position: fixed;
+    outline-style: none;
+
+}
+
+.nav a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+
+
+}
+
+.nav a:hover {
+    font-size: 24px;
+    color: rgb(5, 92, 92)
+}
+
+.nav2 {
+    background-color: rgb(241, 125, 145);
+
+
+
+
+
+}
+
+.toggle {
+    position: absolute;
+    top: 0.7rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+.toggle .menu {
+    height: 2rem;
+    margin-top: 0.2rem;
+    display: none;
+}
+
+.toggle .close {
+    display: none;
+    font-size: 30px;
+    margin-right: 0.2rem;
+}
+
+.nav-checkbox {
+    display: none;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+
+}
+
+.menu li {
+    display: block;
+    padding: 5px;
+    list-style: none;
+    
+}
+
+
+.menu a {
+    color: black;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+#nav-checkbox:checked~ul.menu li {
+    display: block;
+}
+
+#nav-checkbox:checked~label.toggle .close {
+    display: block;
+}
+
+#nav-checkbox:checked~label.toggle .menu {
+    display: none;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 35px;
+
+}
+
+main h1 {
+    margin-top:100px;
+    font-size: 50px;
+    color: white;
+    text-shadow: 0px 0px 10px rgb(192, 4, 104),
+        0px 0px 20px rgb(192, 4, 104),
+        0px 0px 300px rgb(192, 4, 104),
+        0px 0px 40px rgb(192, 4, 104);
+    animation: load 2s infinite ease-in-out;
+    z-index: -1;
+
+}
+
+.water1 {
+    width: 42%;
+    height: 500px;
+    font-size: 30px;
+    color: black;
+    background-color: pink;
+    border: 10px solid deeppink;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 40px;
+    font-style: italic;
+    color: rgb(153, 16, 16);
+    font-weight: bold;
+    text-decoration: underline;
+    animation: image 3s forwards ease-in-out 1s;
+
+
+}
+
+.water1:hover {
+    
+    color: rgb(160, 5, 88)
+}
+
+.water1 img {
+    width: 90%;
+    height: 60%;
+
+}
+
+.water1 img:hover {
+    width: 98%;
+    height: 68%
+}
+
+.main1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    height: 100%
+}
+
+@keyframes load {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@media only screen and (max-width:480px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .search {
+        width: 250px;
+        height: 30px;
+        margin-right: 100px;
+        z-index:3
+        }
+
+    .nav {
+        padding-left: 10px;
+        z-index: 1;
+    }
+
+    .search i {
+        font-size: 15px;
+    }
+
+    .search input {
+        width: 220px;
+        height: 25px;
+        font-size: 10px;
+        border-radius: 10px;
+        outline-style: none;
+    }
+
+
+    .nav .image {
+        width: 70px;
+        height: 70px;
+    }
+
+    .toggle .menu {
+        display: block;
+
+    }
+
+    .toggle {
+        padding-right: 20px;
+
+
+    }
+
+    .menu a {
+        font-size: 15px;
+        margin-right: 100px
+    }
+
+    .toggle .cross {
+        display: block;
+
+    }
+
+    .menu {
+        font-size: 5px;
+        flex-direction: column;
+
+
+    }
+
+    .menu li {
+        display: none;
+    }
+
+    .nav2 {
+        
+        margin-top: 34%;
+        border-radius: 10px;
+        background-color: rgb(253, 220, 226);
+        z-index: 3;
+        
+
+    }
+
+    .foot {
+        height: 70px;
+        width: 477px;
+        
+    }
+
+    main h1 {
+        font-size: 18px;
+        margin-top:70px
+
+    }
+
+    .main1 {
+        width: 70%;
+        margin-top: 20px;
+
+    }
+
+    .water1 {
+        width: 100%;
+        height: 300px;
+        font-size: 16px;
+        border: 5px solid deeppink;
+        
+    }
+
+}
+
+
+@media only screen and (max-width:390px) {
+ body {
+    overflow-x: hidden;
+}
+
+.search {
+    width: 220px;
+    height: 30px;
+    margin-right: 100px;
+    z-index:3
+    }
+
+.nav {
+    padding-left: 10px;
+    z-index: 1;
+}
+
+.search i {
+    font-size: 15px;
+}
+
+.search input {
+    width: 180px;
+    height: 25px;
+    font-size: 10px;
+    border-radius: 10px;
+    outline-style: none;
+}
+
+
+.nav .image {
+    width: 70px;
+    height: 70px;
+}
+
+.toggle .menu {
+    display: block;
+
+}
+
+.toggle {
+    padding-right: 20px;
+
+
+}
+
+.menu a {
+    font-size: 15px;
+    margin-right: 100px
+}
+
+.toggle .cross {
+    display: block;
+
+}
+
+.menu {
+    font-size: 5px;
+    flex-direction: column;
+
+
+}
+
+.menu li {
+    display: none;
+}
+
+.nav2 {
+    
+    margin-top: 45%;
+    border-radius: 10px;
+    background-color: rgb(253, 220, 226);
+    z-index: 3;
+    
+
+}
+
+.foot {
+    height: 70px;
+    width: 400px;
+    
+}
+
+main h1 {
+    font-size: 15px;
+    margin-top:70px
+
+}
+
+.main1 {
+    width: 65%;
+    margin-top: 20px;
+
+}
+
+.water1 {
+    width: 100%;
+    height: 260px;
+    font-size: 16px;
+    border: 5px solid deeppink;
+    
+}
+
+}
