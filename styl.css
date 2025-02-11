@@ -89,7 +89,7 @@ body {
     width:27px;
     height:27px;
     position: fixed;
-    top:10%;
+    top:5.5%;
     left:26%
 
 }
@@ -270,7 +270,7 @@ main h1 {
         width:15px;
         height:15px;
         position:fixed;
-        top:-3%;
+        top:5.5%;
         left:26%;}
 
     .nav .image {
@@ -365,7 +365,7 @@ main h1 {
         width:13px;
         height:13px;
         position:fixed;
-        top:5.5%;
+        top:-2%;
         left:26%;}
 
 .nav {
