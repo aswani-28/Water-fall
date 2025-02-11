@@ -269,10 +269,7 @@ main h1 {
     .ico{
         width:15px;
         height:15px;
-        position:fixed;
-        top:5.5%;
-        left:26%;}
-
+    }
     .nav .image {
         width: 70px;
         height: 70px;
@@ -364,9 +361,7 @@ main h1 {
     .ico{
         width:13px;
         height:13px;
-        position:fixed;
-        top:-2%;
-        left:26%;}
+    }
 
 .nav {
     padding-left: 10px;
