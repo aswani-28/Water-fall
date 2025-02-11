@@ -245,7 +245,7 @@ main h1 {
         margin-right: 200px;
         position:fixed;
         left:25%;
-        top:3%;
+        top:0%;
         z-index:3
         }
 
@@ -264,7 +264,7 @@ main h1 {
         border-radius: 10px;
         outline-style: none;
         left:30%;
-        top:3%
+        top:0%
     }
     .ico{
         width:15px;
