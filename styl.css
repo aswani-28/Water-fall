@@ -84,13 +84,6 @@ body {
     background-color: rgb(241, 125, 145);
 
 }
-.ico{
-    width:27px;
-    height:27px;
-    position:fixed;
-    top:6%;
-    left:21%;
-}
 .toggle {
     position: absolute;
     top: 0.7rem;
