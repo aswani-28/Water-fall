@@ -54,6 +54,7 @@ body {
     position: fixed;
 }
 
+
 .search input {
     border-radius: 10px;
     border: none;
@@ -62,6 +63,7 @@ body {
     font-size: 15px;
     position: fixed;
     outline-style: none;
+    left:23%
 
 }
 
@@ -81,12 +83,14 @@ body {
 .nav2 {
     background-color: rgb(241, 125, 145);
 
-
-
-
-
 }
-
+.ico{
+    width:27px;
+    height:27px;
+    position:fixed;
+    top:6%;
+    left:21%;
+}
 .toggle {
     position: absolute;
     top: 0.7rem;
@@ -250,13 +254,19 @@ main h1 {
     }
 
     .search input {
-        width: 220px;
+        width: 200px;
         height: 25px;
         font-size: 10px;
         border-radius: 10px;
         outline-style: none;
+        left:25%
     }
-
+    .ico{
+        width:15px;
+        height:15px;
+        position:fixed;
+        top:5.5%;
+        left:22%;}
 
     .nav .image {
         width: 70px;
@@ -265,11 +275,12 @@ main h1 {
 
     .toggle .menu {
         display: block;
+        
 
     }
 
     .toggle {
-        padding-right: 20px;
+        padding-right: 40px;
 
 
     }
@@ -312,7 +323,7 @@ main h1 {
     }
 
     main h1 {
-        font-size: 18px;
+        font-size: 13px;
         margin-top:70px
 
     }
@@ -342,9 +353,15 @@ main h1 {
 .search {
     width: 220px;
     height: 30px;
-    margin-right: 100px;
+    margin-right: 150px;
     z-index:3
     }
+    .ico{
+        width:13px;
+        height:13px;
+        position:fixed;
+        top:6%;
+        left:22%;}
 
 .nav {
     padding-left: 10px;
