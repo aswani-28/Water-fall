@@ -64,7 +64,7 @@ body {
     font-size: 15px;
     position: fixed;
     outline-style: none;
-    left:23%
+    left:28%
 
 }
 
@@ -88,6 +88,10 @@ body {
 .ico{
     width:27px;
     height:27px;
+    position: fixed;
+    top:5.5%;
+    left:26%
+
 }
 .toggle {
     position: absolute;
@@ -239,6 +243,8 @@ main h1 {
         width: 250px;
         height: 30px;
         margin-right: 200px;
+        position:fixed;
+        left:25%;
         z-index:3
         }
 
@@ -262,7 +268,7 @@ main h1 {
         width:15px;
         height:15px;
         position:fixed;
-        top:6%;
+        top:5.5%;
         left:26%;}
 
     .nav .image {
